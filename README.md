@@ -33,11 +33,28 @@ This project demonstrates the application of advanced data science or Generative
 - Matplotlib / Seaborn for visualization
 - Scikit-learn for ML modeling
 
-### Modelling
-- Several machine learning models are applied to the preprocessed data, including Logistic Regression, Decision Tree, Random Forest, K-Nearest Neighbors (KNN), Naive Bayes, and Support Vector Machine (SVM). To address class imbalance, SMOTE (Synthetic Minority Over-sampling Technique) was applied to the training data. Models were evaluated using confusion matrices, classification reports, and ROC-AUC scores to assess the performance.
+### 🧮 Modeling Techniques
 
-## Result Summary
-The models developed during this study effectively classify individuals based on heart disease risk, with Gradient Boosting Classifier and Random Forest showing the highest potential for deployment in a clinical setting. Both model achieved 90% accuracy. The results suggest that integrating the model into clinical decision support systems could enhance early detection and treatment of heart disease.
+The following machine learning models were applied:
 
+- Logistic Regression  
+- Decision Tree  
+- Random Forest  
+- K-Nearest Neighbors (KNN)  
+- Naive Bayes  
+- Support Vector Machine (SVM)  
+- Gradient Boosting Classifier
 
-  
+To address class imbalance in the dataset, **SMOTE (Synthetic Minority Over-sampling Technique)** was used on the training set. Model performance was evaluated using:
+
+- Confusion Matrix  
+- Classification Report (Precision, Recall, F1-Score)  
+- ROC-AUC Score
+
+## 📈 Results Summary
+
+The models built for this study effectively classified individuals based on heart disease risk. Among all, the **Gradient Boosting Classifier** and **Random Forest** models showed the highest performance, each achieving approximately **90% accuracy**. These results indicate strong potential for deployment in clinical decision-support tools aimed at early detection and prevention of heart disease.
+
+## ✅ Conclusion
+
+Integrating machine learning models into healthcare systems can augment clinical decision-making, reduce diagnostic errors, and enable proactive care. The success of this project demonstrates how data-driven methods can enhance early diagnosis and potentially save lives.
